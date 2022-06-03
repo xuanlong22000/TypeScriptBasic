@@ -40,3 +40,4 @@ function is5(arr1: number[], arr2: number[], arr3: number[]) {
 }
 
 console.log(is5([1], [1, 2], [1, 2, 3]))
+

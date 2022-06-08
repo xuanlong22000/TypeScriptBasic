@@ -1,18 +1,6 @@
-interface User {
-    id: number,
-    Name: string,
-    age: number
+function user(student: { id: number, name: string }) {
+    const { id, name } = student
+    console.log(id, name)
 }
 
-const user: User = {
-    id: 1,
-    Name: 'long',
-    age: 22
-}
-
-// const Id=user.id
-// const Name=user.name
-
-const { id, Name } = user
-
-console.log(user)
+user({ id: 1, name: 'qq' })

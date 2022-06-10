@@ -3,6 +3,6 @@ export interface Currency {
     value: number
 }
 
-export function from(value: number, unit: 'USD'): Currency {
+export function fromDD(value: number, unit: 'EUR' | 'GBP' | 'JPY' | 'USD'): Currency {
     return { unit, value }
 }
